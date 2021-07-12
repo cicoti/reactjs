@@ -1,7 +1,10 @@
 import './App.css';
 //import OlaMundo from "./ex1/OlaMundo.js"
 //import MostrarNome from "./ex2/MostrarNome.js"
-import Contador from './ex3/Contador.js';
+//import Contador from './ex3/Contador.js';
+
+import Grafico from './ex4/Grafico.js';
+import Eixo from './ex4/Eixo.js';
 
 function App() {
   return (
@@ -14,8 +17,16 @@ function App() {
           {/*<MostrarNome/>*/}
         </div>  
         <div>
-          {<Contador/>}
+          {/*<Contador/>*/}
         </div>
+
+      
+
+        <div>{<Grafico/>}</div>
+             
+        
+      
+
       </header>
     </div>
   );
