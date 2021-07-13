@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import Contador from './Contador';
-import Placar from './v2/Placar';
+import Placar from './v1/Placar';
+//import Placar from './v2/Placar';
 
 const dados = {
   partida: {
@@ -18,7 +19,7 @@ const dados = {
 
 class App extends Component{
 
-  /*
+  
   // v1
   render() {
     return (
@@ -27,14 +28,16 @@ class App extends Component{
                 visitante={dados.visitante} />
      );
   }
-  */
+  
 
   // v2
+  /*
   render() {
     return (
         <Placar {...dados} />
      );
   }
+  */
 
 } 
 
